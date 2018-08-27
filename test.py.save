@@ -1,0 +1,18 @@
+from yowsup.env import YowsupEnv
+from wamedia import SendMediaStack
+
+notujuan = 6281394081303
+def credential():
+    return "6281212410407","LsXtaeomh44Bps/RgZdgU6QVPng="
+
+try:
+	stack = SendMediaStack(credential(),[(notujuan,foto)])
+              stack.start()
+          except:
+            pass
+      else:
+          print ("no foto")
+      ulang = ulang+1
+      
+
+GPIO.cleanup()
